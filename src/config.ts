@@ -1,79 +1,51 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    website: "https://genesisisabel-github.io", // replace this with your deployed domain
+    title: "Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
-    ogImage: "/og-image.webp",
-    logo: "logo",
+    tags: ["Portfolio", "Resume cv", "Astro"],
+    LogoImage: "/og-image.webp",
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    repository: "https://github.com/genesisisabel?tab=repositories",
+    author: "Genesis Aigner",
+    profile: "https://www.linkedin.com/in/genesislujanch/",
+    logo: "/path/to/logo.svg",
+    // otras props
+  ogImage: "/og-image.webp",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
+    name: "Genesis Aigner",
+    profession: "Industrial Engineer | Product Manager",
     profileImage: "pp2.png",
     profileFacts: [
         {
-            value: 10,
+            value: +5,
             description: "Years of Experience"
         },
         {
-            value: 5,
+            value: 11,
             description: "Completed Projects"
         },
         {
-            value: 4,
+            value: "+3M",
             description: "Satisfied Clients"
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "genesis.lujan@hotmail.com",
+        linkedin: "https://www.linkedin.com/in/genesislujanch/",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "I am a Industrial Engineer with over 5 years of experience in project management across Latin America in the banking, healthcare, consumer goods and govenment sectors. My expertise includes business intelligence and process optimization, with strong focus on delivering results and driving efficiency.",
 }
 
 export const SOCIALS = [
     {
-        name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
-        icon: "twitter-x-fill",
-        show: true
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
-        icon: "facebook-fill",
-        show: false
-    },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
-        icon: "instagram-fill",
-        show: true
-    },
-    {
-        name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
-        icon: "youtube-fill",
-        show: true
-    },
-    {
-        name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
-        icon: "tik-fill",
-        show: false
-    },
-    {
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
-        icon: "github-fill",
+        url: "https://github.com/genesisisabel",
+       // icon: "github-fill",
         show: true
     }
 ]
